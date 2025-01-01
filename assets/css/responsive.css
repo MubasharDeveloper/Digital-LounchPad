@@ -1,0 +1,673 @@
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .section-six {
+    .slider-inner-div {
+      .img-wrapper {
+
+        height: 62% !important;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 1099px) and (min-width: 900px) {
+  .section-six {
+    .slider-inner-div {
+      .img-wrapper {
+
+        height: 70% !important;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 769px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .banner-section {
+    .inner-container {
+      .banner-heading {
+        line-height: 21px !important;
+
+        & strong {
+          font-size: 22px;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+
+  .section-two,
+  .section-four {
+    .container {
+      padding: 3rem 10px !important;
+
+      .heading-wrapper {
+        line-height: 21px !important;
+
+        & strong {
+          font-size: 22px;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+
+      .span-content {
+        font-size: 17px !important;
+      }
+    }
+  }
+
+  .section-three {
+    padding: 3rem 0 !important;
+
+    .container {
+
+      & span {
+        font-size: 15px !important;
+      }
+    }
+  }
+
+  .section-six {
+    & h1 {
+      line-height: 21px !important;
+
+      & strong {
+        font-size: 22px;
+        font-size: 22px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .section-six {
+    .slick-slide {
+      padding: 10px !important;
+    }
+
+    .slider-inner-div {
+      .title {
+        font-size: 16px !important;
+      }
+    }
+  }
+
+  .section-five {
+    padding: 3rem 0 !important;
+
+    .left-img-wrapper {
+      padding: 15px 10px !important;
+    }
+
+    .card-body {
+      padding: 1rem 10px;
+
+      .card-title {
+        font-size: 13px !important;
+      }
+
+      .card-subtitle {
+        font-size: 11px !important;
+        margin-bottom: 5px !important;
+      }
+
+      .card-text {
+        font-size: 13px !important;
+        margin-bottom: 5px !important;
+
+        & small {
+          font-size: 13px !important;
+        }
+      }
+    }
+  }
+
+  .section-six {
+    padding: 3rem 0 !important;
+
+    & h1 {
+      margin-bottom: 35px !important;
+    }
+
+    .slick-list {
+      height: 450px;
+    }
+
+    .slick-slide {
+      height: 450px !important;
+    }
+
+    .comment {
+      .time {
+        display: block;
+      }
+
+      .message {
+        font-size: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        /* Adjust the number of visible lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+
+    .img-wrapper {
+      height: 56% !important;
+    }
+  }
+
+  .price-section {
+    .inner-container-price {
+      padding: 48px 15px;
+    }
+
+    .span-content {
+      font-size: 17px !important;
+    }
+
+    .heading-wrapper {
+      font-size: 22px !important;
+      line-height: 30px !important;
+    }
+
+    .big-paragraph {
+      font-size: 14px;
+    }
+
+    .glowing-border {
+      .highlight {
+        font-size: 22px !important;
+      }
+    }
+
+    .gbl-upper {
+      margin-bottom: 55px !important;
+    }
+
+    .glowing-border {
+
+
+      .text {
+        font-size: 14px !important;
+      }
+
+      .card-inner-content {
+        & h2 {
+          font-size: 27px !important;
+        }
+
+        & span {
+          font-size: 15px !important;
+        }
+      }
+    }
+
+    .para {
+      margin-top: 15px;
+    }
+
+    .payment-icons {
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+
+    .list {
+      display: block;
+      padding: 20px 0 0;
+
+      .left-column,
+      .right-column {
+        width: 100%;
+
+        .list-content-success {
+          /* display: block; */
+        }
+      }
+    }
+  }
+
+  .faq-section {
+    .faq-banner {
+      & span {
+        font-size: 17px;
+        margin-bottom: 0;
+      }
+
+      & h1 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+  }
+
+
+
+
+
+
+
+}
+
+@media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .banner-section {
+    .inner-container {
+      .banner-heading {
+        line-height: 21px !important;
+
+        & strong {
+          font-size: 22px;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+
+  .section-two,
+  .section-four {
+    .container {
+      padding: 3rem 10px !important;
+
+      .heading-wrapper {
+        line-height: 21px !important;
+
+        & strong {
+          font-size: 22px;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+
+      .span-content {
+        font-size: 17px !important;
+      }
+    }
+  }
+
+  .section-three {
+    padding: 3rem 0 !important;
+
+    .container {
+
+      & span {
+        font-size: 15px !important;
+      }
+    }
+  }
+
+  .section-six {
+    & h1 {
+      line-height: 21px !important;
+
+      & strong {
+        font-size: 22px;
+        font-size: 22px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .section-six {
+    .slick-slide {
+      padding: 10px !important;
+    }
+
+    .slider-inner-div {
+      .title {
+        font-size: 16px !important;
+      }
+    }
+  }
+
+  .section-five {
+    padding: 3rem 0 !important;
+
+    .left-img-wrapper {
+      padding: 15px 10px !important;
+    }
+
+    .card-body {
+      padding: 1rem 10px;
+
+      .card-title {
+        font-size: 13px !important;
+      }
+
+      .card-subtitle {
+        font-size: 11px !important;
+        margin-bottom: 5px !important;
+      }
+
+      .card-text {
+        font-size: 13px !important;
+        margin-bottom: 5px !important;
+
+        & small {
+          font-size: 13px !important;
+        }
+      }
+    }
+  }
+
+  .section-six {
+    padding: 3rem 0 !important;
+
+    & h1 {
+      margin-bottom: 35px !important;
+    }
+
+    .slick-list {
+      height: 450px;
+    }
+
+    .slick-slide {
+      height: 450px !important;
+    }
+
+    .comment {
+      .time {
+        display: block;
+      }
+
+      .message {
+        font-size: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        /* Adjust the number of visible lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+
+    .img-wrapper {
+      height: 45% !important;
+    }
+  }
+
+  .price-section {
+    .inner-container-price {
+      padding: 48px 15px;
+    }
+
+    .span-content {
+      font-size: 17px !important;
+    }
+
+    .heading-wrapper {
+      font-size: 22px !important;
+      line-height: 30px !important;
+    }
+
+    .big-paragraph {
+      font-size: 14px;
+    }
+
+    .glowing-border {
+      .highlight {
+        font-size: 22px !important;
+      }
+
+      .card-inner-content {
+        & h2 {
+          font-size: 23px !important;
+        }
+
+        & span {
+          font-size: 12px !important;
+        }
+      }
+    }
+
+    .glowing-border {
+
+      .text {
+        font-size: 14px !important;
+      }
+
+      .price-btn {
+        & a {
+          font-size: 13px;
+        }
+      }
+    }
+
+    .list {
+      display: block;
+      padding: 20px 0 0;
+
+      .left-column,
+      .right-column {
+        width: 100%;
+
+        .list-content-success {
+          display: block;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 370px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .banner-section {
+    .inner-container {
+      .banner-heading {
+        line-height: 21px !important;
+
+        & strong {
+          font-size: 22px;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+
+  .section-two,
+  .section-four {
+    .container {
+      padding: 3rem 10px !important;
+
+      .heading-wrapper {
+        line-height: 21px !important;
+
+        & strong {
+          font-size: 22px;
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+
+      .span-content {
+        font-size: 17px !important;
+      }
+    }
+  }
+
+  .section-three {
+    padding: 3rem 0 !important;
+
+    .container {
+
+      & span {
+        font-size: 15px !important;
+      }
+    }
+  }
+
+  .section-six {
+    & h1 {
+      line-height: 21px !important;
+
+      & strong {
+        font-size: 22px;
+        font-size: 22px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .section-six {
+    .slick-slide {
+      padding: 10px !important;
+    }
+
+    .slider-inner-div {
+      .title {
+        font-size: 16px !important;
+      }
+    }
+  }
+
+  .section-five {
+    padding: 3rem 0 !important;
+
+    .left-img-wrapper {
+      padding: 15px 10px !important;
+    }
+
+    .card-body {
+      padding: 1rem 10px;
+
+      .card-title {
+        font-size: 13px !important;
+      }
+
+      .card-subtitle {
+        font-size: 11px !important;
+        margin-bottom: 5px !important;
+      }
+
+      .card-text {
+        font-size: 13px !important;
+        margin-bottom: 5px !important;
+
+        & small {
+          font-size: 13px !important;
+        }
+      }
+    }
+  }
+
+  .section-six {
+    padding: 3rem 0 !important;
+
+    .img-wrapper {
+      height: 37% !important;
+    }
+
+    & h1 {
+      margin-bottom: 35px !important;
+    }
+
+    .slick-list {
+      height: 450px;
+    }
+
+    .slick-slide {
+      height: 450px !important;
+    }
+
+    .comment {
+      .time {
+        display: block;
+      }
+
+      .message {
+        font-size: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        /* Adjust the number of visible lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+
+    .img-wrapper {
+      height: 38% !important;
+    }
+  }
+
+  .price-section {
+    .inner-container-price {
+      padding: 48px 15px;
+    }
+
+    .span-content {
+      font-size: 17px !important;
+    }
+
+    .heading-wrapper {
+      font-size: 22px !important;
+      line-height: 30px !important;
+    }
+
+    .big-paragraph {
+      font-size: 14px;
+    }
+
+    .glowing-border {
+      .highlight {
+        font-size: 22px !important;
+      }
+    }
+
+    .price span {
+      padding: 13px 16px;
+      font-size: 15px;
+    }
+  }
+
+  .glowing-border {
+
+    .text {
+      font-size: 14px !important;
+    }
+
+    .price-btn {
+      & a {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .list {
+    display: block;
+    padding: 20px 0 0;
+
+    .left-column,
+    .right-column {
+      width: 100%;
+
+      .list-content-success {
+        display: block;
+      }
+    }
+  }
+}
