@@ -643,3 +643,26 @@ main {
 
     
 }
+
+
+
+/* ================================================================= */
+
+
+.accordion-item---brix.tabs-accordion---brix .open-close-icon-wrapper---brix .open-close-line---brix{
+    background-color: rgb(255, 255, 255);
+}
+
+.accordion-item---brix.tabs-accordion---brix .open-close-icon-wrapper---brix .open-close-line---brix.second-line---brix{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg); 
+    background-color: rgb(255, 255, 255); 
+    transform-style: preserve-3d;
+    transition: all .5s;
+}
+
+.accordion-item---brix.tabs-accordion---brix.open .open-close-icon-wrapper---brix .open-close-line---brix.second-line---brix{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(90deg) rotateY(0deg) rotateZ(90deg) skew(0deg, 0deg); 
+    background-color: rgb(255, 255, 255); 
+    transform-style: preserve-3d;
+    transition: all .5s;
+}
