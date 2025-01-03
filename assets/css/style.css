@@ -19,13 +19,14 @@ body {
 
 header {
     .logo-wrapper {
-        width: 160px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
         margin: 0 auto;
 
         & img {
             width: 100%;
             height: 100%;
+            object-fit: cover;
         }
     }
 
@@ -65,7 +66,7 @@ main {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: calc(100vh - 80px);
+        /* height: calc(100vh - 80px); */
 
         .container {
             max-width: 1380px;
@@ -154,6 +155,7 @@ main {
                 font-size: 26px;
                 display: block;
                 /* text-align: center; */
+                line-height: 30px;
             }
         }
     }
@@ -171,12 +173,13 @@ main {
                 height: 100%;
                 padding: 20px;
                 border-radius: 10px;
-                aspect-ratio: 14/16;
+                border-radius: 8px !important;
+                overflow: hidden;
+                aspect-ratio: 1/1;
 
                 & img {
-                    border-radius: 4px;
+                    border-radius: 8px;
                     width: 100%;
-                    height: 100%;
                 }
             }
 
@@ -365,47 +368,6 @@ main {
     color: #fb4409;
 }
 
-.faq-section {
-    .faq-banner {
-        text-align: center;
-        background-color: #000;
-        padding: 20px;
-        border: 2px solid #000;
-    }
-
-    .faq-banner h1 {
-        color: orange;
-        margin: 0;
-        font-size: 24px;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-
-    .faq-banner h2 {
-        color: white;
-        margin: 10px 0 0;
-        font-size: 32px;
-        font-weight: bold;
-    }
-    .faq-container{
-        .nav-tabs .nav-link.active {
-            color: #fff;
-            background-color: transparent;
-            border-color: transparent;
-            border-bottom: 2px solid white;
-          }
-          .nav-tabs .nav-link {
-            color: #0d6efd;
-          }
-          .nav-tabs .nav-link.disabled {
-            color: #6c757d; /* Disabled tab styling */
-          }
-          .tab-pane {
-            padding: 20px;
-          }
-    }
-
-}
 
 .price-section .inner-container-price {
     display: flex;
@@ -434,8 +396,7 @@ main {
     margin-bottom: 10px;
 }
 
-.section-six .container h1,
-.faq-section .faq-banner h1{
+.section-six .container h1{
     text-align: center;
     font-family: "Oswald";
     font-size: 51px;
@@ -467,21 +428,10 @@ main {
     text-align: center;
 }
 
-.faq-section .faq-banner span{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fb4409;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: "Oswald";
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
+
 
 .glowing-border-sm {
-    padding: 0px 36px;
+    padding: 10px 36px;
     background: linear-gradient(black, black) padding-box,
         linear-gradient(to bottom, var(--primary), #ff000000) border-box;
 }
@@ -498,9 +448,11 @@ main {
 }
 
 .glowing-border .text .highlight {
-    font-size: 34px;
+    font-size: 24px;
+    line-height: 40px;
     font-weight: bold;
-    color: white;
+    color: white !important;
+    background-color: transparent;
 }
 
 .w-500 {
@@ -673,4 +625,21 @@ main {
     margin: 14px auto 24px;
     font-size: 1.125rem;
     line-height: 150%;
+}
+
+
+.faq-new{
+    .accordion-content---brix-2 {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s ease, opacity 0.3s ease;
+        opacity: 0;
+    }
+    .accordion-item---brix.open .accordion-content---brix-2 {
+        opacity: 1;
+    }
+    
+
+
+    
 }

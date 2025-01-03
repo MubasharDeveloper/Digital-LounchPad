@@ -28,7 +28,7 @@
   }
  .video-wrapper{
   max-width: 493px !important;
-  margin-top: 4rem !important;
+  /* margin-top: 4rem !important; */
 
   width: 100%;
   & iframe{
@@ -38,7 +38,7 @@
 
   .banner-section {
     height: auto !important;
-    margin-bottom: 4rem !important;
+    /* margin-bottom: 4rem !important; */
     .inner-container {
       .banner-heading {
         line-height: 21px !important;
