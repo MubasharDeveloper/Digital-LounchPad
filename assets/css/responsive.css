@@ -289,8 +289,7 @@
   }
   .header-content{
     .logo-wrapper {
-      width: 80px;
-      height: 80px;
+      width: 120px;
       & img{
         width: 100%;
         height: 100%;

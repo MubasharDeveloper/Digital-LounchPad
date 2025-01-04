@@ -60,6 +60,12 @@ body {
     }
 }
 
+@media(max-width: 767px){
+    .logo-wrapper{
+        width: 120px;
+    }
+}
+
 main {
     .banner-section {
         background-image: url(/assets/images/hero-bacjground-img.jpeg);
