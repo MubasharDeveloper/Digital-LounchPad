@@ -17,7 +17,8 @@ body {
 
 }
 
-header {
+.header-content {
+    background-color: transparent;
     .logo-wrapper {
         width: 120px;
         height: 120px;
@@ -85,6 +86,16 @@ main {
                 text-align: center;
                 letter-spacing: -0.5px;
                 text-transform: uppercase;
+                margin-top: 0;
+                .span-content {
+                   
+                    color: #fb4409 ;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    font-family: "Oswald";
+                    font-size: 28px;
+                    font-weight: 500;
+                }
             }
 
             .video-wrapper {
@@ -106,10 +117,10 @@ main {
 
     .section-two,
     .section-four {
-        background-color: #1c1c1c;
+        /* background-color: #1c1c1c; */
 
         .container {
-            padding: 6rem 0;
+            padding: 5rem 0;
 
             .inner-container {
                 max-width: 810px;
@@ -143,19 +154,23 @@ main {
 
 
     .section-three {
-        padding: 6rem 0;
+        /* padding: 6rem 0; */
 
         .container {
             .inner-container {
                 max-width: 810px;
                 margin: 0 auto;
             }
-
+mark{
+    background-color: red;
+    padding: 0 5px;
+   border-bottom-right-radius: 1.5rem;
+}
             & span {
                 font-size: 26px;
                 display: block;
                 /* text-align: center; */
-                line-height: 30px;
+                line-height: 38px;
             }
         }
     }
@@ -255,7 +270,7 @@ main {
     .section-six {
         background-color: #1c1c1c;
 
-        padding: 6rem 0;
+        padding: 4rem 0;
 
         & h1 {
             margin-bottom: 3rem;
@@ -665,4 +680,9 @@ main {
     background-color: rgb(255, 255, 255); 
     transform-style: preserve-3d;
     transition: all .5s;
+}
+
+
+.big-paragraph.low-opacity {
+    margin-bottom: 2rem;
 }
