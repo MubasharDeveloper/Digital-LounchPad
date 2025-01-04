@@ -233,12 +233,12 @@ mark{
 
 
             .card-text {
-                display: -webkit-box;
+                /* display: -webkit-box;
                 line-clamp: 2;
-                -webkit-line-clamp: 2;
+                -webkit-line-clamp: 2; */
                 /* Adjust the number of visible lines */
-                -webkit-box-orient: vertical;
-                overflow: hidden;
+                /* -webkit-box-orient: vertical;
+                overflow: hidden; */
                 font-size: 17px;
             }
 
